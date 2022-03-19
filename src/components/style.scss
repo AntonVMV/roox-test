@@ -1,0 +1,39 @@
+.content {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 35px 25px;
+  background-color: #bdbdbd;
+}
+
+//BUTTON
+
+.button {
+  background-color: #4b51ef;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  &.side__button {
+    padding: 5px 15px;
+  }
+  &.edit__button {
+    padding: 6px 12px;
+  }
+  &.submit-button {
+    background-color: #52cf4f;
+    padding: 5px 15px;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+  &:disabled {
+    background-color: #afafaf;
+  }
+}

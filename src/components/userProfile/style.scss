@@ -1,0 +1,37 @@
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+//FORM
+
+.user-form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 20px 12px;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+}
+
+.form-field {
+  padding: 5px 10px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 50%;
+  &.form-comment {
+    height: 55px;
+    resize: none;
+    width: 100%;
+  }
+  &.error {
+    border-color: red;
+    &::placeholder {
+      color: red;
+      font-size: 10px;
+    }
+  }
+}

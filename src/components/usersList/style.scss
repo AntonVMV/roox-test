@@ -1,0 +1,59 @@
+//USERS LIST
+
+.users-list {
+  display: grid;
+  grid-gap: 15px;
+  margin: 20px 0;
+}
+
+.users-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+//USER CARD
+
+.user-card {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 10px;
+}
+
+.user-card__list {
+  display: grid;
+  grid-gap: 8px;
+}
+
+.user-card__item {
+  display: flex;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #a3a3a3;
+}
+
+.user-text {
+  color: black;
+  margin-left: 7px;
+}
+
+.user-button {
+  align-self: flex-end;
+}
+
+.user-link {
+  align-self: flex-end;
+  color: #4b51ef;
+  text-decoration: none;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
